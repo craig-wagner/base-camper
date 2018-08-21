@@ -45,16 +45,19 @@
             // 
             // txtKmlFile
             // 
+            this.txtKmlFile.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtKmlFile.Location = new System.Drawing.Point(69, 12);
             this.txtKmlFile.Name = "txtKmlFile";
-            this.txtKmlFile.Size = new System.Drawing.Size(194, 20);
+            this.txtKmlFile.Size = new System.Drawing.Size(286, 20);
             this.txtKmlFile.TabIndex = 1;
             // 
             // btnBrowse
             // 
+            this.btnBrowse.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnBrowse.AutoSize = true;
             this.btnBrowse.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnBrowse.Location = new System.Drawing.Point(269, 10);
+            this.btnBrowse.Location = new System.Drawing.Point(361, 10);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(26, 23);
             this.btnBrowse.TabIndex = 2;
@@ -64,7 +67,8 @@
             // 
             // btnConvert
             // 
-            this.btnConvert.Location = new System.Drawing.Point(301, 10);
+            this.btnConvert.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnConvert.Location = new System.Drawing.Point(393, 10);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(75, 23);
             this.btnConvert.TabIndex = 3;
@@ -76,11 +80,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(397, 45);
+            this.ClientSize = new System.Drawing.Size(489, 45);
             this.Controls.Add(this.btnConvert);
             this.Controls.Add(this.btnBrowse);
             this.Controls.Add(this.txtKmlFile);
             this.Controls.Add(this.lblKmlFile);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "MainForm";
             this.Text = "BaseCamper";
             this.ResumeLayout(false);
