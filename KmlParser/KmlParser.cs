@@ -32,7 +32,8 @@ namespace KmlUtilities
             newRoutesFolder.Add(routes);
             routesFolder.Add(newRoutesFolder);
 
-            var newFilePath = Path.Combine(Path.GetDirectoryName(kmlFilePath), Path.GetFileNameWithoutExtension(kmlFilePath) + " (Updated).kml");
+            var newFilePath = Path.Combine(Path.GetDirectoryName(kmlFilePath),
+                Path.GetFileNameWithoutExtension(kmlFilePath) + " (Updated).kml");
 
             kml.Save(newFilePath);
 
